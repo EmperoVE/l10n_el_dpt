@@ -55,9 +55,9 @@
 
 
         <!-- Submenu for Venezuela Political Territorial Division -->
-        <menuitem id="main_menu_l10n_el_ptd" name="PTD Venezuela"  parent="base.menu_administration"/>
+        <menuitem id="main_menu_l10n_el_ptd" name="PTD El salvador"  parent="base.menu_administration"/>
         <!-- Entrada de menu para el modelo de res.country.state -->
-        <menuitem id="item_states" name="States" parent="main_menu_l10n_el_ptd" action="action_state"/>
+        <!--menuitem id="item_states" name="States" parent="main_menu_l10n_el_ptd" action="action_state"/-->
         <!-- Entrada de menu para el modelo de res.country.state.municipality -->
         <menuitem id="item_municipalities" name="Municipalities" parent="main_menu_l10n_el_ptd" action="action_municipality"/>
         <!-- Entrada de menu para el modelo de res.country.state.municipality.parish -->

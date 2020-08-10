@@ -37,4 +37,4 @@ class StateMunicipality(models.Model):
 
     state_id = fields.Many2one('res.country.state', 'State', required=True, help='Name of the State to which the municipality belongs')
     name = fields.Char('Municipality', required=True, help='Municipality name')
-    code = fields.char('code', required=True, help='municipality code')
+    code = fields.Char('code', required=True, help='municipality code')
